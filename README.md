@@ -1,99 +1,38 @@
-<div align="center">
+# Hi, I'm Shubham
 
-# Hey there, I'm Shubham 👋
+Data Architect in New York. I build enterprise data platforms and wire them up to AI so non-technical people can actually use the data they're sitting on.
 
-**Full-Stack Developer • AI Enthusiast • Building Intelligent Applications**
+## What I've built
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhammalpani)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/malpanishubham2)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubham.malpani@gmail.com)
+Most of my work lives in private repos, but here's the shape of it:
 
-</div>
+**Enterprise data warehouse** -- built from zero on Microsoft Fabric. 21+ source systems (CRM, ERP, HRIS, billing, project management) consolidated into a medallion-architecture warehouse serving 400+ users across 8 business units. Config-driven PySpark ingestion, 125 production pipelines, 98.2% success rate. I recruited and led the team of 8 that delivered it.
 
----
+**AI analytics layer** -- 7 MCP servers (~8,200 lines of Python/TypeScript, 65 tools) that connect Claude to the warehouse. People query data in plain English instead of writing SQL or waiting for someone to pull a report. 8-layer query security, 3-tier observability. This is what surfaced $7.6M in unrealized revenue that leadership didn't know existed.
 
-### 🚀 About Me
+**AI entity matching** -- cross-system reconciliation between CRM and ERP using deterministic matching + LLM-powered fuzzy matching with human-in-the-loop approval via email. Cut data rejection rates from 25% to 5%.
 
-I'm a developer passionate about building modern, AI-powered web applications that solve real problems. With a background in **Electronics & Telecommunications Engineering** from Mumbai University and a deep interest in **Data Science and AI**, I bridge the gap between intelligent algorithms and beautiful user experiences.
+**LLM pipeline diagnostics** -- an agent that ingests pipeline failure logs, compares them against source code, and outputs a root cause + fix instructions. Cut mean time to resolution from hours to minutes. (The agent caught a specific employee's ID conflict that would've taken a human half a day to trace.)
 
-- 🔭 Currently building **[InvestFlow](https://github.com/malpanishubham2/investflow)** — an AI-powered investment tracking platform
-- 🤖 Working with **Google Gemini AI**, **LLMs**, and **agentic workflows**
-- 🌱 Exploring **AI agents**, **RAG architectures**, and **real-time data systems**
-- 💡 I believe the best products combine **great design** with **smart AI**
+**AI booking assistant** -- built on the same MCP infrastructure. Matches consultants to projects based on their historical work patterns, expertise, and availability. Natural language in, staffing recommendation out.
 
----
+**Infrastructure as code** -- 17 Terraform modules, 84 .tf files, 3 environments. Automated workspace provisioning, secrets management, RBAC. Took the team from zero version control to automated gated deployments in 8 weeks.
 
-### 🛠️ Tech Stack
+## What I'm tinkering with
 
-<div align="center">
+- [InvestFlow](https://github.com/malpanishubham2/investflow) -- investment tracker with AI-driven analysis (Next.js, Gemini, Prisma)
+- [fabricpipelines](https://github.com/malpanishubham2/fabricpipelines) -- subset of my PySpark ingestion framework
+- Working on open-sourcing a reference MCP server with the 2-tool pattern and security architecture I use in production
 
-**Languages & Frameworks**
+## Stack
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+**Daily:** Python, PySpark, T-SQL, Microsoft Fabric, Azure (DevOps, Key Vault, Entra ID), Terraform, Power BI
 
-**AI & Data**
+**AI/LLM:** MCP servers (FastMCP), Claude integration, LLM-powered entity resolution, agentic diagnostics, prompt engineering for SQL generation
 
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?style=flat-square&logo=googlegemini&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+**Also used:** Next.js, TypeScript, React, Power Apps, Power Automate, Logic Apps, PostgreSQL
 
-**Databases & Tools**
+## Links
 
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-</div>
-
----
-
-### 🏗️ Featured Project
-
-<a href="https://github.com/malpanishubham2/investflow">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=malpanishubham2&repo=investflow&theme=tokyonight&hide_border=true" />
-</a>
-
-#### [InvestFlow](https://github.com/malpanishubham2/investflow) — AI-Powered Investment Tracker
-
-> A full-stack investment platform with AI-driven analysis, built from the ground up.
-
-| Feature | Tech |
-|---------|------|
-| 🤖 AI Recommendations & Thesis Checking | Google Gemini API |
-| 📊 Real-time Stock Data & Interactive Charts | Alpha Vantage, Twelve Data, TradingView-style |
-| 💼 Portfolio Tracking with Risk Scoring | Custom risk engine with health monitoring |
-| 📓 Investment Journal with AI Enrichment | Gemini-powered entry analysis |
-| 🎯 What-If Scenario Simulator | Monte Carlo–style simulations |
-| 🔒 Auth, Rate Limiting & Admin Dashboard | NextAuth v5, custom middleware |
-
-**Built with:** Next.js 16 • TypeScript • Prisma • Tailwind CSS • Google Gemini • Recharts • Framer Motion
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=malpanishubham2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=malpanishubham2&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-
-</div>
-
----
-
-<div align="center">
-
-💬 **Open to full-time opportunities in AI, Full-Stack, and Data Engineering roles.**
-
-*Let's build something amazing together.*
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/malpanishubham/) ·
+[Email](mailto:shubham.malpani@gmail.com)
