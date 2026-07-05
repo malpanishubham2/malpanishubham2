@@ -59,6 +59,3 @@ I build enterprise data platforms and wire them up to AI so non-technical people
 [![fabricpipelines](https://github-readme-stats.vercel.app/api/pin/?username=malpanishubham2&repo=fabricpipelines&theme=tokyonight&hide_border=true)](https://github.com/malpanishubham2/fabricpipelines)
 [![investflow](https://github-readme-stats.vercel.app/api/pin/?username=malpanishubham2&repo=investflow&theme=tokyonight&hide_border=true)](https://github.com/malpanishubham2/investflow)
 
----
-
-Open to Senior Data Engineer, Data Architect, and AI/Data Engineering roles.
